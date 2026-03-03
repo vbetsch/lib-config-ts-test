@@ -4,10 +4,10 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "build": "tsc -p tsconfig.build.json",
     "eslint": "eslint ./tests/eslint.test.ts",
     "prettier": "prettier --write ./tests/prettier.test.ts",
-    "tsconfig": "npx tsc --noEmit"
+    "tsconfig": "npx tsc --noEmit",
+    "tsconfig:build": "tsc -p tsconfig.build.json"
   },
   "keywords": [],
   "author": "",
