@@ -6,7 +6,6 @@ export default [
   ...cliConfig,
   {
     rules: {
-      // Tu peux surcharger une règle ici si besoin
     }
   }
 ];
