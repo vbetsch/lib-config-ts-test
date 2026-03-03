@@ -1,11 +1,4 @@
-## Install or update
-
-```bash
-eval `ssh-agent -s`
-ssh-add ~/.ssh/id_ed25519
-npm install github:vbetsch/config
-npm update @vbetsch/config
-```
+[@vbetsch/config](https://github.com/vbetsch/config)
 
 ## Run
 
