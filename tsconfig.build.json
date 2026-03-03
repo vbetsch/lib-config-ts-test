@@ -1,3 +1,3 @@
 {
-  "extends": "@vbetsch/config/tsconfig/cli/build"
+  "extends": "@vbetsch/config/tsconfig/cli/build.json"
 }
