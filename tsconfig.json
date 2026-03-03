@@ -1,5 +1,5 @@
 {
-    "extends": "@vbetsch/config/tsconfig/base",
+    "extends": "@vbetsch/lib-config-ts/tsconfig/base",
     "include": [
         "tests/tsconfig.test.ts"
     ],

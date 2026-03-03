@@ -1,5 +1,5 @@
-// import baseConfig from '@vbetsch/config/prettier/base';
-import cliConfig from '@vbetsch/config/prettier/cli';
+// import baseConfig from '@vbetsch/lib-config-ts/prettier/base';
+import cliConfig from '@vbetsch/lib-config-ts/prettier/cli';
 
 export default {
   // ...baseConfig,

@@ -1,5 +1,5 @@
-// import baseConfig from '@vbetsch/config/eslint/base';
-import cliConfig from '@vbetsch/config/eslint/cli';
+// import baseConfig from '@vbetsch/lib-config-ts/eslint/base';
+import cliConfig from '@vbetsch/lib-config-ts/eslint/cli';
 
 export default [
   // ...baseConfig,

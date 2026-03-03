@@ -1,4 +1,4 @@
-[@vbetsch/config](https://github.com/vbetsch/config)
+[@vbetsch/lib-config-ts](https://github.com/vbetsch/lib-config-ts)
 
 ## Run
 
