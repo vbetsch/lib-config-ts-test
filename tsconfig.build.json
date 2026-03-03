@@ -1,0 +1,3 @@
+{
+  "extends": "@vbetsch/config/tsconfig/cli/build"
+}

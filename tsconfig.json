@@ -1,0 +1,4 @@
+{
+  "extends": "@vbetsch/config/tsconfig/cli",
+  "include": ["src/**/*"]
+}
