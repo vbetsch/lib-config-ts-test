@@ -6,6 +6,7 @@ export default [
   ...cliConfig,
   {
     rules: {
+      // 'prefer-const': 'off',
     }
   }
 ];
