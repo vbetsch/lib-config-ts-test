@@ -1,4 +1,4 @@
-## Install
+## Install or update
 
 ```bash
 eval `ssh-agent -s`
