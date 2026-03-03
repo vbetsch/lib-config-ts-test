@@ -4,8 +4,8 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "eslint": "eslint",
-    "prettier": "prettier --check ."
+    "eslint": "eslint ./tests/eslint.test.ts",
+    "prettier": "prettier --check ./tests/prettier.test.ts"
   },
   "keywords": [],
   "author": "",
