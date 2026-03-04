@@ -2,8 +2,5 @@
     "extends": "@vbetsch/lib-config-ts/tsconfig/base",
     "include": [
         "tests/tsconfig.test.ts"
-    ],
-    "compilerOptions": {
-        "noImplicitAny": false
-    }
+    ]
 }
