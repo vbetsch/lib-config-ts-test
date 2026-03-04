@@ -1,6 +1,6 @@
 import eslintBase from '@vbetsch/lib-config-ts/eslint/base';
-import eslintCli from '@vbetsch/lib-config-ts/eslint/cli';
+import eslintStrict from '@vbetsch/lib-config-ts/eslint/strict';
 
 // eslint
 console.log(eslintBase);
-console.log(eslintCli);
+console.log(eslintStrict);
