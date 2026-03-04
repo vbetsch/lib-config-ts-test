@@ -9,7 +9,7 @@
     "eslint": "eslint ./tests/*.test.ts",
     "prettier": "prettier --check ./tests/*.test.ts",
     "tsconfig": "npx tsc --noEmit",
-    "tsconfig:build": "tsc -p tsconfig.build.json"
+    "tsconfig:build": "tsc -p tsconfig.build.json --outDir dist/"
   },
   "dependencies": {
     "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#2-link-prettier-into-eslint"
