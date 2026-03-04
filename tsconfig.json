@@ -1,6 +1,9 @@
 {
     "extends": "@vbetsch/lib-config-ts/tsconfig/base",
     "include": [
-        "tests/**/*.ts"
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "tests/**/*.ts",
+        "tests/**/*.tsx"
     ]
 }

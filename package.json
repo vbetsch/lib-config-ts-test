@@ -6,11 +6,11 @@
   "description": "Test of lib-config-ts ",
   "scripts": {
     "start": "node src/index.js",
-    "eslint": "eslint ./tests/*.test.{ts,tsx}",
-    "prettier": "prettier --check ./tests/*.test.ts",
+    "eslint": "eslint .",
+    "prettier": "prettier --check .",
     "tsconfig": "npx tsc --noEmit",
     "tsconfig:build": "tsc -p tsconfig.build.json --outDir dist/",
-    "jest": "jest ./tests/jest.test.ts"
+    "jest": "jest ./tests"
   },
   "dependencies": {
     "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#8-create-eslint-configuration"
