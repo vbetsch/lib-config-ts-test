@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node src/index.js",
     "eslint": "eslint .",
-    "prettier": "prettier --write .",
+    "prettier": "prettier --check .",
     "tsconfig": "npx tsc --noEmit",
     "tsconfig:build": "tsc -p tsconfig.build.json --outDir dist/",
     "jest": "jest ./tests"
