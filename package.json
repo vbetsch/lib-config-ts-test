@@ -12,6 +12,6 @@
     "tsconfig:build": "tsc -p tsconfig.build.json --outDir dist/"
   },
   "dependencies": {
-    "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#4-setup-tsconfig-build"
+    "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#6-setup-jestconfigcjs"
   }
 }
