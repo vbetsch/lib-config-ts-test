@@ -12,6 +12,6 @@
     "tsconfig:build": "tsc -p tsconfig.build.json --outDir dist/"
   },
   "dependencies": {
-    "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#2-link-prettier-into-eslint"
+    "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#4-setup-tsconfig-build"
   }
 }
