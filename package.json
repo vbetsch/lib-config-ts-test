@@ -12,6 +12,6 @@
     "tsconfig:build": "tsc -p tsconfig.build.json"
   },
   "dependencies": {
-    "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts"
+    "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#2-link-prettier-into-eslint"
   }
 }
