@@ -1,3 +1,3 @@
-function sayHello(name) { // <--- Ici, TS doit souligner 'name' en rouge
+function sayHello(name) { // <--- 'name' should be red if noImplicitAny is true
   console.log("Hello " + name);
 }
