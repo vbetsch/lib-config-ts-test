@@ -6,7 +6,7 @@
   "description": "Test of lib-config-ts ",
   "scripts": {
     "start": "node src/index.js",
-    "eslint": "eslint ./tests/*.test.ts",
+    "eslint": "eslint ./tests/*.test.{ts,tsx}",
     "prettier": "prettier --check ./tests/*.test.ts",
     "tsconfig": "npx tsc --noEmit",
     "tsconfig:build": "tsc -p tsconfig.build.json --outDir dist/",
