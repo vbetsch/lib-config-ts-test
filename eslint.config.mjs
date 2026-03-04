@@ -1,12 +1,3 @@
-// import baseConfig from '@vbetsch/lib-config-ts/eslint/base';
-import cliConfig from '@vbetsch/lib-config-ts/eslint/cli';
+import baseConfig from '@vbetsch/lib-config-ts/eslint/base'
 
-export default [
-  // ...baseConfig,
-  ...cliConfig,
-  {
-    rules: {
-      // 'prefer-const': 'off',
-    }
-  }
-];
+export default [...baseConfig]
