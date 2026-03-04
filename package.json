@@ -13,6 +13,6 @@
     "jest": "jest ./tests/jest.test.ts"
   },
   "dependencies": {
-    "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#6-setup-jestconfigcjs"
+    "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#7-setup-static-files"
   }
 }
