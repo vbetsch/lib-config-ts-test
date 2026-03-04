@@ -1,3 +1,3 @@
-import baseConfig from '@vbetsch/lib-config-ts/eslint/base'
+import prettierConfig from '@vbetsch/lib-config-ts/eslint/prettier';
 
-export default baseConfig
+export default prettierConfig;
