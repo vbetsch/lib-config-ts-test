@@ -2,6 +2,8 @@
   "name": "lib-config-ts-test",
   "version": "1.0.0",
   "main": "src/index.js",
+  "author": "vbetsch",
+  "description": "Test of lib-config-ts ",
   "scripts": {
     "start": "node src/index.js",
     "eslint": "eslint ./tests/eslint.test.ts",
@@ -9,10 +11,6 @@
     "tsconfig": "npx tsc --noEmit",
     "tsconfig:build": "tsc -p tsconfig.build.json"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts"
   }
