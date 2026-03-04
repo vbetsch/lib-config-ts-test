@@ -7,12 +7,12 @@
   "scripts": {
     "start": "node src/index.js",
     "eslint": "eslint .",
-    "prettier": "prettier --check .",
+    "prettier": "prettier --write .",
     "tsconfig": "npx tsc --noEmit",
     "tsconfig:build": "tsc -p tsconfig.build.json --outDir dist/",
     "jest": "jest ./tests"
   },
   "dependencies": {
-    "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#8-create-eslint-configuration"
+    "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#9-create-prettier-configuration"
   }
 }
