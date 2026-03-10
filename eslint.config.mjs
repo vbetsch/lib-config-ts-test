@@ -30,6 +30,10 @@ export default tseslint.config(
   // 4. Prettier (must be last to override formatting rules)
   ...prettier,
 
+  {
+    ignores: ['**/*.mjs'],
+  },
+
   // 5. Custom overrides for the test project
   {
     rules: {
