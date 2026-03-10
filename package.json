@@ -9,7 +9,7 @@
     "eslint": "eslint .",
     "prettier": "prettier --check .",
     "tsconfig": "tsc",
-    "tsconfig:build": "tsc -p tsconfig.build.json --outDir dist/",
+    "tsconfig:build": "tsc -p tsconfig.build.json",
     "jest": "jest ./tests"
   },
   "dependencies": {
