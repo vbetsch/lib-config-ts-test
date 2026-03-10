@@ -8,7 +8,7 @@
     "start": "node src/index.js",
     "eslint": "eslint .",
     "prettier": "prettier --check .",
-    "tsconfig": "npx tsc",
+    "tsconfig": "tsc",
     "tsconfig:build": "tsc -p tsconfig.build.json --outDir dist/",
     "jest": "jest ./tests"
   },
