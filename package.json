@@ -18,5 +18,6 @@
         "tsconfig": "tsc",
         "tsconfig:build": "tsc -p tsconfig.build.json"
     },
+    "type": "module",
     "version": "1.0.0"
 }
