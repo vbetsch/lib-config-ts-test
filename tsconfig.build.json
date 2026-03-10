@@ -1,6 +1,7 @@
 {
     "extends": [
         "./tsconfig.json",
-        "@vbetsch/lib-config-ts/tsconfig/build/base"
+        "@vbetsch/lib-config-ts/tsconfig/build/base",
+        "@vbetsch/lib-config-ts/tsconfig/build/lib"
     ]
 }
