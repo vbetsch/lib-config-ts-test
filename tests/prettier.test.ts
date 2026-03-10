@@ -8,3 +8,9 @@ function test() {
   console.log('indent - 1 tab');
     console.log('indent - 2 tabs');
 }
+
+console.log([
+    'foo',
+    'bar',
+    'baz'
+])
