@@ -8,7 +8,7 @@
     "start": "node src/index.js",
     "eslint": "eslint .",
     "prettier": "prettier --check .",
-    "tsconfig": "npx tsc",
+    "tsconfig": "npx tsc --jsx react",
     "tsconfig:build": "tsc -p tsconfig.build.json --outDir dist/",
     "jest": "jest ./tests"
   },
@@ -16,6 +16,7 @@
     "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#10-create-tsconfig-configuration"
   },
   "devDependencies": {
+    "@types/react": "^19.2.14",
     "react": "^19.2.4"
   }
 }
