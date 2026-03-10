@@ -13,6 +13,9 @@
     "jest": "jest ./tests"
   },
   "dependencies": {
-    "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#9-create-prettier-configuration"
+    "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#10-create-tsconfig-configuration"
+  },
+  "devDependencies": {
+    "react": "^19.2.4"
   }
 }
