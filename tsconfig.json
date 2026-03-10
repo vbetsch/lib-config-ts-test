@@ -5,7 +5,11 @@
         "@vbetsch/lib-config-ts/tsconfig/jsx"
     ],
     "compilerOptions": {
-        "noEmit": true
+        "baseUrl": "./src",
+        "noEmit": true,
+        "paths": {
+          "@src/*": ["src/*"],
+        }
     },
     "include": [
         "src/**/*.ts",
