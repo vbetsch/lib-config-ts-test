@@ -31,7 +31,7 @@ export default tseslint.config(
   ...prettier,
 
   {
-    ignores: ['**/*.mjs'],
+    ignores: ['**/*.mjs', '**/*.js'],
   },
 
   // 5. Custom overrides for the test project
