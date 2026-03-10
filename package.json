@@ -1,22 +1,22 @@
 {
-  "name": "lib-config-ts-test",
-  "version": "1.0.0",
-  "main": "src/index.js",
-  "author": "vbetsch",
-  "description": "Test of lib-config-ts ",
-  "scripts": {
-    "start": "node src/index.js",
-    "eslint": "eslint .",
-    "prettier": "prettier --check .",
-    "tsconfig": "tsc",
-    "tsconfig:build": "tsc -p tsconfig.build.json",
-    "jest": "jest ./tests"
-  },
-  "dependencies": {
-    "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#10-create-tsconfig-configuration"
-  },
-  "devDependencies": {
-    "@types/react": "^19.2.14",
-    "react": "^19.2.4"
-  }
+    "author": "vbetsch",
+    "dependencies": {
+        "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#10-create-tsconfig-configuration"
+    },
+    "description": "Test of lib-config-ts ",
+    "devDependencies": {
+        "@types/react": "^19.2.14",
+        "react": "^19.2.4"
+    },
+    "main": "src/index.js",
+    "name": "lib-config-ts-test",
+    "scripts": {
+        "eslint": "eslint .",
+        "jest": "jest ./tests",
+        "prettier": "prettier --check .",
+        "start": "node src/index.js",
+        "tsconfig": "tsc",
+        "tsconfig:build": "tsc -p tsconfig.build.json"
+    },
+    "version": "1.0.0"
 }
