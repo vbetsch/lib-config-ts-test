@@ -1,7 +1,7 @@
 {
     "author": "vbetsch",
     "dependencies": {
-        "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#10-create-tsconfig-configuration"
+        "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#11-create-jest-configuration"
     },
     "description": "Test of lib-config-ts ",
     "devDependencies": {
