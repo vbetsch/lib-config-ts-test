@@ -1,3 +1,3 @@
 export class Peanut {
-  public name = 'This is a Peanut';
+  name = 'This is a Peanut';
 }
