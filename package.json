@@ -1,6 +1,8 @@
 {
     "author": "vbetsch",
     "dependencies": {
+        "@swc/core": "^1.15.18",
+        "@swc/jest": "^0.2.39",
         "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#11-create-jest-configuration"
     },
     "description": "Test of lib-config-ts ",
@@ -12,7 +14,7 @@
     "name": "lib-config-ts-test",
     "scripts": {
         "eslint": "eslint .",
-        "jest": "jest ./tests",
+        "jest": "jest",
         "prettier": "prettier --check .",
         "start:dev": "tsx watch src/index.ts",
         "start:prod": "node dist/index.js",
