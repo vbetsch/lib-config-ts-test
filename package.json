@@ -8,7 +8,7 @@
     "name": "lib-config-ts-test",
     "scripts": {
         "start:dev": "tsx watch src/index.ts",
-        "prettier": "prettier --check",
+        "prettier": "prettier --check .",
         "jest": "jest",
         "tsconfig": "tsc",
         "eslint": "eslint",
