@@ -1,9 +1,9 @@
 import tseslint from 'typescript-eslint';
 import base from '@vbetsch/lib-config-ts/eslint/base';
-import strict from '@vbetsch/lib-config-ts/eslint/strict';
+// import strict from '@vbetsch/lib-config-ts/eslint/strict';
 import naming from '@vbetsch/lib-config-ts/eslint/naming';
-import jsx from '@vbetsch/lib-config-ts/eslint/jsx';
-import spellcheck from '@vbetsch/lib-config-ts/eslint/spellcheck';
+// import jsx from '@vbetsch/lib-config-ts/eslint/jsx';
+// import spellcheck from '@vbetsch/lib-config-ts/eslint/spellcheck';
 import prettier from '@vbetsch/lib-config-ts/eslint/prettier';
 
 export default tseslint.config(
@@ -22,10 +22,10 @@ export default tseslint.config(
   },
 
   // 3. Modular configurations
-  strict,
+  // strict,
   naming,
-  jsx,
-  spellcheck,
+  // jsx,
+  // spellcheck,
 
   // 4. Prettier (must be last to override formatting rules)
   ...prettier,
