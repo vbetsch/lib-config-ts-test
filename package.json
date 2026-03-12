@@ -7,13 +7,13 @@
     "main": "src/index.ts",
     "name": "lib-config-ts-test",
     "scripts": {
-        "eslint": "eslint .",
-        "jest": "jest",
-        "prettier": "prettier --check .",
         "start:dev": "tsx watch src/index.ts",
-        "start:prod": "node dist/src/index.js",
+        "prettier": "prettier --check",
+        "jest": "jest",
         "tsconfig": "tsc",
-        "tsconfig:build": "tsc -p tsconfig.build.json"
+        "eslint": "eslint",
+        "tsconfig:build": "tsc -p tsconfig.build.json",
+        "start:prod": "node dist/src/index.js"
     },
     "type": "module",
     "version": "1.0.0"
