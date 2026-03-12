@@ -1,10 +1,7 @@
 {
     "author": "vbetsch",
     "dependencies": {
-        "@swc/core": "^1.15.18",
-        "@swc/jest": "^0.2.39",
-        "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#11-create-jest-configuration",
-        "jest-environment-jsdom": "^30.3.0"
+        "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#16-optimize-dependencies"
     },
     "description": "Test of lib-config-ts ",
     "devDependencies": {
