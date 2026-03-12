@@ -4,10 +4,6 @@
         "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#16-optimize-dependencies"
     },
     "description": "Test of lib-config-ts ",
-    "devDependencies": {
-        "@types/react": "^19.2.14",
-        "react": "^19.2.4"
-    },
     "main": "src/index.ts",
     "name": "lib-config-ts-test",
     "scripts": {
