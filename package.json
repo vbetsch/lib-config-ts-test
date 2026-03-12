@@ -1,7 +1,8 @@
 {
     "author": "vbetsch",
     "dependencies": {
-        "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#16-optimize-dependencies"
+        "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#16-optimize-dependencies",
+        "tsx": "^4.21.0"
     },
     "description": "Test of lib-config-ts ",
     "main": "src/index.ts",
