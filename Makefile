@@ -1,6 +1,6 @@
 # Variables
 ref_lib := github:vbetsch/lib-config-ts
-dev_branch := 16-optimize-dependencies
+dev_branch := 28-optimize-configuration
 
 # Commands
 remove_npm_files:
