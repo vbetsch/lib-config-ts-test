@@ -1,8 +1,8 @@
 {
     "extends": [
         "@vbetsch/lib-config-ts/tsconfig/base",
-        "@vbetsch/lib-config-ts/tsconfig/strict",
-        "@vbetsch/lib-config-ts/tsconfig/jsx"
+//        "@vbetsch/lib-config-ts/tsconfig/strict",
+//        "@vbetsch/lib-config-ts/tsconfig/jsx"
     ],
     "compilerOptions": {
         "baseUrl": "./src",
