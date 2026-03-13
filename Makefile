@@ -3,8 +3,9 @@ ref_lib := github:vbetsch/lib-config-ts
 dev_branch := 16-optimize-dependencies
 
 # Commands
-remove_npm_files:
+update-dependencies:
 	rm -rf ./package-lock.json ./node_modules/
+	npm install
 
 update-lib-dev:
 	npm install "$(ref_lib)#$(dev_branch)"
@@ -16,9 +17,9 @@ update-tsconfig-build:
 	rm -rf ./dist/
 	npm run tsconfig:build
 
-.PHONY: remove_npm_files update-lib-dev update-lib-prod update-tsconfig-build
+.PHONY: update-dependencies update-lib-dev update-lib-prod update-tsconfig-build
 
 # Aliases
-upddeps: remove_npm_files update-lib-dev
+upddeps: update-dependencies
 
 .PHONY: upddeps
