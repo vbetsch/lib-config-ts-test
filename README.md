@@ -13,3 +13,15 @@ npm run start
 npm run eslint
 ```
 
+## Testing
+
+Run npm commands in this order :
+```bash
+npm run start:dev
+npm run prettier
+npm run jest
+npm run tsconfig
+npm run eslint
+npm run tsconfig:build
+npm run start:prod
+```
