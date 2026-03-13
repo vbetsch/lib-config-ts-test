@@ -1,6 +1,7 @@
 {
     "author": "vbetsch",
     "dependencies": {
+        "@types/jest": "^30.0.0",
         "@vbetsch/lib-config-ts": "github:vbetsch/lib-config-ts#16-optimize-dependencies",
         "tsx": "^4.21.0"
     },
