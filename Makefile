@@ -19,6 +19,7 @@ update-tsconfig-build:
 .PHONY: remove_npm_files update-lib-dev update-lib-prod update-tsconfig-build
 
 # Aliases
+updlibdev: update-lib-dev
 upddeps: remove_npm_files update-lib-dev
 
-.PHONY: upddeps
+.PHONY: updlibdev upddeps
