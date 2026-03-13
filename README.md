@@ -1,3 +1,5 @@
+# lib-config-ts-test
+
 [@vbetsch/lib-config-ts](https://github.com/vbetsch/lib-config-ts)
 
 ## Install or update
@@ -16,6 +18,7 @@ npm run eslint
 ## Testing
 
 Run npm commands in this order :
+
 ```bash
 npm run start:dev
 npm run prettier
