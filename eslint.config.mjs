@@ -41,7 +41,7 @@ export default tseslint.config(
   // 5. Custom overrides for the test project
   {
     rules: {
-      'prettier/prettier': 'error',
+      // 'prettier/prettier': 'error',
     },
   }
 );
