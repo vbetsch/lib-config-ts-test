@@ -18,8 +18,5 @@
         "start:prod": "node dist/src/index.js"
     },
     "type": "module",
-    "version": "1.0.0",
-    "devDependencies": {
-        "@types/react": "^19.2.14"
-    }
+    "version": "1.0.0"
 }
