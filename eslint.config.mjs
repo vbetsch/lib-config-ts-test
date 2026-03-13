@@ -9,16 +9,6 @@ import prettier from '@vbetsch/lib-config-ts/eslint/prettier';
 export default tseslint.config(
   ...base,
 
-  // This resolves the "@typescript-eslint/no-unnecessary-condition" error in strict configuration.
-  {
-    languageOptions: {
-      parserOptions: {
-        project: true,
-        tsconfigRootDir: import.meta.dirname,
-      },
-    },
-  },
-
   // strict,
   // naming,
   // jsx,
