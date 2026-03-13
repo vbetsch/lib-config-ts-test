@@ -34,7 +34,7 @@ export default tseslint.config(
     ignores: [
       '**/*.mjs',
       '**/*.js',
-      '**/*.tsx',
+      // '**/*.tsx',
     ],
   },
 
