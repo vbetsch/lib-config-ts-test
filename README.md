@@ -25,6 +25,9 @@ npm run eslint
 ### tsconfig
 
 1. **strict**:
-    * _No dependencies needed_
+    * _No more dependencies needed_
 2. **jsx**:
-    * @types/react
+    * **@types/react**
+3. **build/lib**:
+    * _No more dependencies needed_
+    * You have to delete your out directory if exist
