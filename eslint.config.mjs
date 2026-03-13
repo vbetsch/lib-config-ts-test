@@ -8,12 +8,10 @@ import prettier from '@vbetsch/lib-config-ts/eslint/prettier';
 
 export default tseslint.config(
   ...base,
-
   // strict,
   // naming,
   // jsx,
   // spellcheck,
-
   ...prettier,
 
   {
