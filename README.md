@@ -8,13 +8,6 @@
 npm install github:vbetsch/lib-config-ts#DEV_BRANCH
 ```
 
-## Run
-
-```bash
-npm run start
-npm run eslint
-```
-
 ## Testing
 
 Run npm commands in this order :
