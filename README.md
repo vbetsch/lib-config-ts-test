@@ -12,3 +12,12 @@ npm install github:vbetsch/lib-config-ts#DEV_BRANCH
 npm run start
 npm run eslint
 ```
+
+## Modules
+
+### tsconfig
+
+1. **strict**:
+    * _No dependencies needed_
+2. **jsx**:
+    * @types/react
