@@ -7,10 +7,8 @@ import base from '@vbetsch/lib-config-ts/eslint/base';
 import prettier from '@vbetsch/lib-config-ts/eslint/prettier';
 
 export default tseslint.config(
-  // 1. Base rules (includes JS/TS recommended)
   ...base,
 
-  // 2. IMPORTANT: Bridge between ESLint and your tsconfig.json
   // This resolves the "@typescript-eslint/no-unnecessary-condition" error in strict configuration.
   {
     languageOptions: {
@@ -21,13 +19,11 @@ export default tseslint.config(
     },
   },
 
-  // 3. Modular configurations
   // strict,
   // naming,
   // jsx,
   // spellcheck,
 
-  // 4. Prettier (must be last to override formatting rules)
   ...prettier,
 
   {
@@ -37,7 +33,6 @@ export default tseslint.config(
     ],
   },
 
-  // 5. Custom overrides for the test project
   {
     rules: {
       // 'prettier/prettier': 'error',
