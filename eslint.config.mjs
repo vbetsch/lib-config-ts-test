@@ -17,7 +17,6 @@ export default tseslint.config(
   {
     ignores: [
       './tests/prettier.test.ts',
-      // '**/*.tsx',
     ],
   },
 
