@@ -13,6 +13,13 @@ npm run start
 npm run eslint
 ```
 
+## Requirements
+
+### dependencies
+
+* You just need your runner (tsx for example).
+* You have to install **@types/jest** if you want to write Jest tests.
+
 ## Modules
 
 ### tsconfig
