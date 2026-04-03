@@ -1,15 +1,15 @@
 {
     "exclude": [
-//        "**/*.tsx"
+        //        "**/*.tsx"
     ],
     "extends": [
-//        -> "@vbetsch/lib-config-ts/tsconfig/base",
-//        "@vbetsch/lib-config-ts/tsconfig/strict",
-//        "@vbetsch/lib-config-ts/tsconfig/jsx"
+        "@vbetsch/config-tsconfig/base"
+        //        "@vbetsch/config-tsconfig/strict",
+        //        "@vbetsch/config-tsconfig/jsx"
     ],
     "compilerOptions": {
         "paths": {
-//          "@src/*": ["src/*"],
+            //          "@src/*": ["src/*"],
         }
     }
 }
