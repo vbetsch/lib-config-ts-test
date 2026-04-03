@@ -5,7 +5,8 @@
     },
     "devDependencies": {
         "@types/jest": "^30.0.0",
-        "@vbetsch/config-eslint": "^0.2.9"
+        "@vbetsch/config-eslint": "^0.2.9",
+        "@vbetsch/config-jest": "^0.1.0"
     },
     "description": "Test of lib-config-ts ",
     "main": "src/index.ts",
