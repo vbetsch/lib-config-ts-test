@@ -5,7 +5,7 @@
     },
     "devDependencies": {
         "@types/jest": "^30.0.0",
-        "@vbetsch/config-eslint": "^0.2.11",
+        "@vbetsch/config-eslint": "^0.2.12",
         "@vbetsch/config-jest": "^0.2.0",
         "@vbetsch/config-prettier": "^0.1.0"
     },
