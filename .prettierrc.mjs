@@ -1,6 +1,6 @@
-// -> import baseConfig from '@vbetsch/lib-config-ts/prettier/base';
+import baseVbetsch from '@vbetsch/config-prettier';
 
 export default {
-  // -> ...baseConfig,
+  ...baseVbetsch,
   // singleQuote: false,
 };
