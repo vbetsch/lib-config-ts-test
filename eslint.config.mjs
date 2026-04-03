@@ -1,10 +1,10 @@
 import tseslint from 'typescript-eslint';
 import base from '@vbetsch/config-eslint/base';
-// import strict from '@vbetsch/config-eslint/strict';
-// import naming from '@vbetsch/config-eslint/naming';
 // import jsx from '@vbetsch/config-eslint/jsx';
-// import spellcheck from '@vbetsch/config-eslint/spellcheck';
+// import naming from '@vbetsch/config-eslint/naming';
 // import prettier from '@vbetsch/config-eslint/prettier';
+// import spellcheck from '@vbetsch/config-eslint/spellcheck';
+// import strict from '@vbetsch/config-eslint/strict';
 
 export default tseslint.config(
   ...base,
