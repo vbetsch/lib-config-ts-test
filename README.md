@@ -5,7 +5,10 @@
 ## Install or update
 
 ```bash
-npm install github:vbetsch/lib-config-ts#DEV_BRANCH
+npm install @vbetsch/config-eslint
+npm install @vbetsch/config-jest
+npm install @vbetsch/config-prettier
+npm install @vbetsch/config-tsconfig
 ```
 
 ## Testing
