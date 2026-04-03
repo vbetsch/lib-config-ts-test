@@ -5,7 +5,7 @@
         "tsx": "^4.21.0"
     },
     "devDependencies": {
-        "@vbetsch/config-eslint": "^0.2.7"
+        "@vbetsch/config-eslint": "^0.2.9"
     },
     "description": "Test of lib-config-ts ",
     "main": "src/index.ts",
