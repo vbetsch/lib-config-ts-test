@@ -14,6 +14,16 @@ export default tseslint.config(
   // spellcheck,
   // ...prettier,
 
+  // You have to add these lines only for the strict module
+  // {
+  //   languageOptions: {
+  //     parserOptions: {
+  //       project: './tsconfig.json', // Indique à ESLint tes fichiers de config TS
+  //       tsconfigRootDir: import.meta.dirname,
+  //     },
+  //   },
+  // },
+
   {
     ignores: [
       // './tests/prettier.test.ts',
