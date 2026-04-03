@@ -5,10 +5,10 @@
 ## Install or update
 
 ```bash
-npm install @vbetsch/config-eslint@latest
-npm install @vbetsch/config-jest@latest
-npm install @vbetsch/config-prettier@latest
-npm install @vbetsch/config-tsconfig@latest
+npm install -D @vbetsch/config-eslint@latest
+npm install -D @vbetsch/config-jest@latest
+npm install -D @vbetsch/config-prettier@latest
+npm install -D @vbetsch/config-tsconfig@latest
 ```
 
 ## Testing
