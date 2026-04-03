@@ -1,11 +1,11 @@
-import baseJestConfig from '@vbetsch/lib-config-ts/jest/base';
-// import domJestConfig from '@vbetsch/lib-config-ts/jest/dom';
-// import strictJestConfig from '@vbetsch/lib-config-ts/jest/strict';
+import baseVbetsch from '@vbetsch/config-jest/base';
+// import domVbetsch from '@vbetsch/config-jest/dom';
+// import strictVbetsch from '@vbetsch/config-jest/strict';
 
 export default {
-  ...baseJestConfig,
-  // ...domJestConfig,
-  // ...strictJestConfig,
+  ...baseVbetsch,
+  // ...domVbetsch,
+  // ...strictVbetsch,
   moduleNameMapper: {
     // '^@src/(.*)$': '<rootDir>/src/$1',
   },
