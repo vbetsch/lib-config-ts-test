@@ -2,8 +2,10 @@
     "author": "vbetsch",
     "dependencies": {
         "@types/jest": "^30.0.0",
-        "@vbetsch/config-eslint": "^0.2.7",
         "tsx": "^4.21.0"
+    },
+    "devDependencies": {
+        "@vbetsch/config-eslint": "^0.2.7"
     },
     "description": "Test of lib-config-ts ",
     "main": "src/index.ts",
