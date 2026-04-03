@@ -1,5 +1,5 @@
 import tseslint from 'typescript-eslint';
-import base from '@vbetsch/config-eslint';
+import base from '@vbetsch/config-eslint/base';
 // import strict from '@vbetsch/config-eslint/strict';
 // import naming from '@vbetsch/config-eslint/naming';
 // import jsx from '@vbetsch/config-eslint/jsx';
