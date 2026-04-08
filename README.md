@@ -62,3 +62,7 @@ npm run tsconfig:build   # Run production build
 npm run start:prod       # Check production execution
 ```
 
+## 🤝 Contributing
+
+Contributions are welcome! To get started, please ensure you have an approved issue before
+submitting a PR.
