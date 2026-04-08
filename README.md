@@ -2,7 +2,7 @@
 
 Test and template project of [@vbetsch/lib-config-ts](https://github.com/vbetsch/lib-config-ts).
 
-> **Note**: Simple comments within the packages configuration files are optional and can be adjusted or removed based on your specific project requirements.
+> **IMPORTANT**: Simple comments within the packages configuration files are optional and can be adjusted or removed based on your specific project requirements.
 
 | Package                                                                              | Config files                                                                   |
 |--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
