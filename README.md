@@ -1,7 +1,7 @@
 # lib-config-ts-test
 
 A turnkey **template** and **testing playground** for
-the [@vbetsch/lib-config-ts](https://github.com/vbetsch/lib-config-ts) monorepo.
+the [lib-config-ts](https://github.com/vbetsch/lib-config-ts) monorepo.
 
 > [!IMPORTANT]
 > These configuration files are designed to be **extended**, not replaced. To ensure stability and
