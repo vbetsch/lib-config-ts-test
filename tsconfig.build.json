@@ -8,7 +8,7 @@
     //    "@vbetsch/config-tsconfig/build/lib"
   ],
   "compilerOptions": {
-    // IMPORTANT: You have to define it !
+    /* IMPORTANT: You have to define it ! */
     "outDir": "./dist/"
   }
 }
