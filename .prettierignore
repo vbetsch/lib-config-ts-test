@@ -31,3 +31,9 @@ coverage/
 
 # --- Typing ---
 *.d.ts
+
+
+
+
+# Overrides
+*.thisisjustanexample

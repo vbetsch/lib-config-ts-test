@@ -14,7 +14,7 @@ export default tseslint.config(
   // spellcheckVbetsch,
   // ...prettierVbetsch,
 
-  // IMPORTANT: You have to add these lines only for the strict module !
+  /* IMPORTANT: You have to add these lines only for the strict module ! */
   // {
   //   languageOptions: {
   //     parserOptions: {
@@ -24,6 +24,7 @@ export default tseslint.config(
   //   },
   // },
 
+  /* --- Overrides --- */
   {
     ignores: [
       // './tests/prettier.test.ts',
