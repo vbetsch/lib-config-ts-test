@@ -35,10 +35,9 @@ This repository is pre-configured. To start a new project:
    internal library testing only).
 3. **Customize `package.json`**: Keep only the `@vbetsch` packages you actually need.
 4. **Configure & Override**:
-
-* **Docstrings**: These define the configuration chapters.
-* **Single comments**: These are optional examples or overrides. Feel free to uncomment,
-  modify, or add your own rules here to suit your project.
+  * Docstrings: These define the configuration chapters.
+  * Single comments: These are optional examples or overrides. Feel free to uncomment,
+    modify, or add your own rules here to suit your project.
 
 ## 🛠 Installation & Updates
 
