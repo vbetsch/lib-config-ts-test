@@ -18,6 +18,8 @@ Templates :
 * [.npmrc](.npmrc)
 * [.prettierignore](.prettierignore)
 
+> **Note**: _src_ and _tests_ folders are just source code example files for testing
+
 ## Install or update
 
 ```bash
