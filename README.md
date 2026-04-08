@@ -1,55 +1,65 @@
 # lib-config-ts-test
 
-Test and template project of [@vbetsch/lib-config-ts](https://github.com/vbetsch/lib-config-ts).
+A turnkey **template** and **testing playground** for
+the [@vbetsch/lib-config-ts](https://github.com/vbetsch/lib-config-ts) monorepo.
 
-> **IMPORTANT**: Simple comments within the packages configuration files are optional and can be
-> adjusted or removed based on your specific project requirements. Overrides are examples.
+> [!IMPORTANT]
+> These configuration files are designed to be **extended**, not replaced. To ensure stability and
+> receive future updates from the libraries, keep the core imports intact and add your
+> project-specific settings in the **"Overrides"** sections.
 
-| Package                                                                              | Config files                                                                   |
-|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| [`@vbetsch/config-eslint`](https://www.npmjs.com/package/@vbetsch/config-eslint)     | [eslint.config.mjs](./eslint.config.mjs)                                       |
-| [`@vbetsch/config-jest`](https://www.npmjs.com/package/@vbetsch/config-jest)         | [jest.config.mjs](./jest.config.mjs)                                           |
-| [`@vbetsch/config-prettier`](https://www.npmjs.com/package/@vbetsch/config-prettier) | [.prettierrc.mjs](./.prettierrc.mjs)                                           |
-| [`@vbetsch/config-tsconfig`](https://www.npmjs.com/package/@vbetsch/config-tsconfig) | [tsconfig.json](./tsconfig.json)  [tsconfig.build.json](./tsconfig.build.json) |
+## 📦 Available Packages
 
-Templates :
+| Package                                                                              | Config File                                                               | Purpose                  |
+|:-------------------------------------------------------------------------------------|:--------------------------------------------------------------------------|--------------------------|
+| [`@vbetsch/config-eslint`](https://www.npmjs.com/package/@vbetsch/config-eslint)     | [eslint.config.mjs](eslint.config.mjs)                                    | Linting with Type Safety |
+| [`@vbetsch/config-jest`](https://www.npmjs.com/package/@vbetsch/config-jest)         | [jest.config.mjs](jest.config.mjs)                                        | Testing with SWC support |
+| [`@vbetsch/config-prettier`](https://www.npmjs.com/package/@vbetsch/config-prettier) | [.prettierrc.mjs](.prettierrc.mjs)                                        | Code Formatting          |
+| [`@vbetsch/config-tsconfig`](https://www.npmjs.com/package/@vbetsch/config-tsconfig) | [tsconfig.json](tsconfig.json) [tsconfig.build.json](tsconfig.build.json) | TS Compilation & Build   |
+
+**Utility Templates**:
 
 * [.editorconfig](.editorconfig)
 * [.gitignore](.gitignore)
 * [.npmrc](.npmrc)
-* [.prettierignore](.prettierignore)
+* [.prettierignore](.prettierignore).
 
-> **Note**: _src_ and _tests_ folders are just source code example files for testing. Makefile is
-> only for testing.
+---
 
-## Use as template
+## 🚀 How to Use as a Template
 
-1. Clone this repository or create your project starting with this template repository.
-2. Remove all files in _src_ and _tests_ folder, and delete Makefile.
-3. Check package.json file in order to have only that is interesting for you. Select only packages
-   that you want.
-4. Check each package config file in order to have only that is interesting for you. You can add,
-   remove or keeping overrides.
-5. Check each template file in order to have only that is interesting for you. You can add, remove
-   or keeping overrides.
+This repository is pre-configured. To start a new project:
 
-## Install or update
+1. **Clone** this repository.
+2. **Clean up**: Remove example files in `src/` and `tests/`, and delete the `Makefile` (used for
+   internal library testing only).
+3. **Customize `package.json`**: Keep only the `@vbetsch` packages you actually need.
+4. **Configure & Override**:
+
+* **Docstrings**: These define the configuration chapters.
+* **Single comments**: These are optional examples or overrides. Feel free to uncomment,
+  modify, or add your own rules here to suit your project.
+
+## 🛠 Installation & Updates
+
+To ensure you have the latest stable versions and a clean environment:
 
 ```bash
 npm cache clean --force
 npm install -D @vbetsch/config-eslint@latest @vbetsch/config-jest@latest @vbetsch/config-prettier@latest @vbetsch/config-tsconfig@latest --prefer-online
 ```
 
-## Testing
+## 🚥 Development Workflow
 
-Run npm commands in this order :
+Validate your setup by running the following commands in order:
 
 ```bash
-npm run start:dev
-npm run prettier
-npm run jest
-npm run tsconfig
-npm run eslint
-npm run tsconfig:build
-npm run start:prod
+npm run start:dev        # Check development execution
+npm run prettier         # Format code
+npm run jest             # Run tests
+npm run tsconfig         # Type-check
+npm run eslint           # Lint code
+npm run tsconfig:build   # Run production build
+npm run start:prod       # Check production execution
 ```
+
