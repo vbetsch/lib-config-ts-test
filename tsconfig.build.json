@@ -1,7 +1,4 @@
 {
-  "exclude": [
-    //        "**/*.tsx"
-  ],
   "extends": [
     "./tsconfig.json",
     "@vbetsch/config-tsconfig/build/base"
