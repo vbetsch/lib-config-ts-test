@@ -16,3 +16,8 @@ trim_trailing_whitespace = false
 
 [Makefile]
 indent_style = tab
+
+
+# Overrides
+[*.py]
+indent_size = 4
