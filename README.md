@@ -19,7 +19,19 @@ Templates :
 * [.npmrc](.npmrc)
 * [.prettierignore](.prettierignore)
 
-> **Note**: _src_ and _tests_ folders are just source code example files for testing
+> **Note**: _src_ and _tests_ folders are just source code example files for testing. Makefile is
+> only for testing.
+
+## Use as template
+
+1. Clone this repository or create your project starting with this template repository.
+2. Remove all files in _src_ and _tests_ folder, and delete Makefile.
+3. Check package.json file in order to have only that is interesting for you. Select only packages
+   that you want.
+4. Check each package config file in order to have only that is interesting for you. You can add,
+   remove or keeping overrides.
+5. Check each template file in order to have only that is interesting for you. You can add, remove
+   or keeping overrides.
 
 ## Install or update
 
