@@ -24,6 +24,7 @@ export default tseslint.config(
   //   },
   // },
 
+  /* --- Overrides --- */
   {
     ignores: [
       // './tests/prettier.test.ts',

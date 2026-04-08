@@ -6,6 +6,8 @@ export default {
   ...baseVbetsch,
   // ...domVbetsch,
   // ...strictVbetsch,
+
+  /* Overrides */
   moduleNameMapper: {
     // '^@src/(.*)$': '<rootDir>/src/$1',
   },
