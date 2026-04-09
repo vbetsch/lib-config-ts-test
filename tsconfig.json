@@ -1,4 +1,8 @@
 {
+  "exclude": [
+    "**/node_modules/**",
+    "**/dist/**"
+  ]
   "extends": [
     "@vbetsch/config-tsconfig/base"
     // "@vbetsch/config-tsconfig/strict"
