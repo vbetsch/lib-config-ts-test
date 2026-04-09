@@ -8,6 +8,9 @@ export default {
   // ...strictVbetsch,
 
   /* Overrides */
+  coveragePathIgnorePatterns: [
+    // '<rootDir>/src/index.ts'
+  ],
   moduleNameMapper: {
     // '^@src/(.*)$': '<rootDir>/src/$1',
   },
