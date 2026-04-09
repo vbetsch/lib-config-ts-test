@@ -32,7 +32,7 @@ This repository is pre-configured. To start a new project:
 
 1. **Clone** this repository.
 2. **Clean up**: Remove example files in `src/` and `tests/`.
-3. **Customize `package.json`**: Keep only the `@vbetsch` packages you actually need.
+3. **Customize `package.json`**: Modify as you want. Keep only the `@vbetsch` packages you actually need.
 4. **Run** `npm install` command.
 5. **Configure & Override**:
 
