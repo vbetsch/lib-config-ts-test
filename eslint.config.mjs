@@ -24,13 +24,19 @@ export default tseslint.config(
   //   },
   // },
 
-  /* --- Overrides --- */
-  {
-    ignores: [
-      // './tests/prettier.test.ts',
-    ],
-  },
+  /* IMPORTANT: You have to add these lines only if you are using import resolver ! */
+  // {
+  //   settings: {
+  //     'import/resolver': {
+  //       typescript: {
+  //         alwaysTryTypes: true,
+  //         project: './tsconfig.json',
+  //       },
+  //     },
+  //   },
+  // },
 
+  /* --- Overrides --- */
   {
     rules: {
       // 'prettier/prettier': 'error',
