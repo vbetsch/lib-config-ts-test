@@ -18,7 +18,7 @@
         "jest": "jest",
         "prettier": "prettier --check .",
         "start:dev": "tsx watch src/index.ts",
-        "start:prod": "node dist/src/index.js",
+        "start:prod": "node dist/index.js",
         "tsconfig": "tsc",
         "tsconfig:build": "tsc -p tsconfig.build.json"
     },
