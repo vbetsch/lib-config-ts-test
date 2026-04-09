@@ -26,14 +26,16 @@ export default tseslint.config(
 
   /* --- Overrides --- */
   {
-    ignores: [
-      // './tests/prettier.test.ts',
-    ],
-  },
-
-  {
     rules: {
       // 'prettier/prettier': 'error',
     },
-  }
+    // settings: {
+    //   'import/resolver': {
+    //     typescript: {
+    //       alwaysTryTypes: true,
+    //       project: './tsconfig.json',
+    //     },
+    //   },
+    // },
+  },
 );
