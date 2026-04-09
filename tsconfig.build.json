@@ -1,4 +1,12 @@
 {
+  "exclude": [
+    "**/*.spec.ts",
+    "**/*.test.ts",
+    "**/dist/**",
+    "**/node_modules/**",
+    "**/tests/**",
+    "jest.config.ts"
+  ],
   "extends": [
     "./tsconfig.json",
     "@vbetsch/config-tsconfig/build/base"
@@ -6,7 +14,7 @@
   ],
   "compilerOptions": {
     /* IMPORTANT: You have to define it ! */
-    "outDir": "./dist/",
+    "outDir": "./dist/"
 
     /* Overrides */
   }
