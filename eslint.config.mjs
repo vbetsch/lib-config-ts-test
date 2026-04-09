@@ -29,13 +29,13 @@ export default tseslint.config(
     rules: {
       // 'prettier/prettier': 'error',
     },
-    settings: {
-      'import/resolver': {
-        typescript: {
-          alwaysTryTypes: true,
-          project: './tsconfig.json',
-        },
-      },
-    },
+    // settings: {
+    //   'import/resolver': {
+    //     typescript: {
+    //       alwaysTryTypes: true,
+    //       project: './tsconfig.json',
+    //     },
+    //   },
+    // },
   },
 );
