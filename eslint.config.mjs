@@ -24,22 +24,18 @@ export default tseslint.config(
   //   },
   // },
 
-  /* IMPORTANT: You have to add these lines only if you are using import resolver ! */
-  // {
-  //   settings: {
-  //     'import/resolver': {
-  //       typescript: {
-  //         alwaysTryTypes: true,
-  //         project: './tsconfig.json',
-  //       },
-  //     },
-  //   },
-  // },
-
   /* --- Overrides --- */
   {
     rules: {
       // 'prettier/prettier': 'error',
     },
-  }
+    settings: {
+      'import/resolver': {
+        typescript: {
+          alwaysTryTypes: true,
+          project: './tsconfig.json',
+        },
+      },
+    },
+  },
 );
