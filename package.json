@@ -8,7 +8,7 @@
         "@vbetsch/config-eslint": "^1.0.0",
         "@vbetsch/config-jest": "^1.0.0",
         "@vbetsch/config-prettier": "^1.0.0",
-        "@vbetsch/config-tsconfig": "^1.0.0"
+        "@vbetsch/config-tsconfig": "^1.0.1"
     },
     "description": "Test of lib-config-ts ",
     "main": "src/index.ts",
