@@ -1,27 +1,30 @@
 {
-    "author": "vbetsch",
-    "dependencies": {
-        "tsx": "^4.21.0"
-    },
-    "devDependencies": {
-        "@types/jest": "^30.0.0",
-        "@vbetsch/config-eslint": "^1.0.2",
-        "@vbetsch/config-jest": "^1.0.0",
-        "@vbetsch/config-prettier": "^1.0.0",
-        "@vbetsch/config-tsconfig": "^1.0.1"
-    },
-    "description": "Test of lib-config-ts ",
-    "main": "src/index.ts",
-    "name": "lib-config-ts-test",
-    "scripts": {
-        "eslint": "eslint",
-        "jest": "jest",
-        "prettier": "prettier --check .",
-        "start:dev": "tsx watch src/index.ts",
-        "start:prod": "node dist/index.js",
-        "tsconfig": "tsc",
-        "tsconfig:build": "tsc -p tsconfig.build.json"
-    },
-    "type": "module",
-    "version": "1.0.0"
+  "author": "vbetsch",
+  "dependencies": {
+    "tsx": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@vbetsch/config-eslint": "^1.0.3",
+    "@vbetsch/config-jest": "^1.0.1",
+    "@vbetsch/config-prettier": "^1.0.1",
+    "@vbetsch/config-tsconfig": "^1.0.2"
+  },
+  "description": "Test of lib-config-ts ",
+  "engines": {
+    "node": ">=24.14.1"
+  },
+  "main": "src/index.ts",
+  "name": "lib-config-ts-test",
+  "scripts": {
+    "eslint": "eslint",
+    "jest": "jest",
+    "prettier": "prettier --check .",
+    "start:dev": "tsx watch src/index.ts",
+    "start:prod": "node dist/index.js",
+    "tsconfig": "tsc",
+    "tsconfig:build": "tsc -p tsconfig.build.json"
+  },
+  "type": "module",
+  "version": "1.0.0"
 }
