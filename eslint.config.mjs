@@ -1,4 +1,3 @@
-import tseslint from 'typescript-eslint';
 import baseVbetsch from '@vbetsch/config-eslint/base';
 // import jsxVbetsch from '@vbetsch/config-eslint/jsx';
 // import namingVbetsch from '@vbetsch/config-eslint/naming';
@@ -6,7 +5,7 @@ import baseVbetsch from '@vbetsch/config-eslint/base';
 // import spellcheckVbetsch from '@vbetsch/config-eslint/spellcheck';
 // import strictVbetsch from '@vbetsch/config-eslint/strict';
 
-export default tseslint.config(
+export default [
   ...baseVbetsch,
   // strictVbetsch,
   // namingVbetsch,
@@ -35,4 +34,4 @@ export default tseslint.config(
   //     },
   //   },
   // }
-);
+];
