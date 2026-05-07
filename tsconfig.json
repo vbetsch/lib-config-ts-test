@@ -9,11 +9,14 @@
     // "@vbetsch/config-tsconfig/strict"
     // "@vbetsch/config-tsconfig/jsx"
   ],
-  /* Overrides */
   "compilerOptions": {
+    /* IMPORTANT: You have to add this line only for the jest dom module ! */
+    // "types": ["@testing-library/jest-dom"],
+
+    /* Overrides */
     // "baseUrl": ".",
     "paths": {
-      // "@src/*": ["src/*"],
+      // "@/*": ["./src/*"],
     }
   }
 }
