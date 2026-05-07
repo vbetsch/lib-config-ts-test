@@ -16,7 +16,7 @@
     /* Overrides */
     // "baseUrl": ".",
     "paths": {
-      // "@src/*": ["src/*"],
+      // "@/*": ["./src/*"],
     }
   }
 }
