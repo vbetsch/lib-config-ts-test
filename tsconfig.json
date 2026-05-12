@@ -14,7 +14,6 @@
     // "types": ["@testing-library/jest-dom"],
 
     /* Overrides */
-    // "baseUrl": ".",
     "paths": {
       // "@/*": ["./src/*"],
     }
