@@ -58,6 +58,7 @@ npm install -D @vbetsch/config-eslint@latest @vbetsch/config-jest@latest @vbetsc
 Validate your setup by running the following commands in order:
 
 ```bash
+npm clean-install        # Install dependencies
 npm run start:dev        # Check development execution
 npm run prettier         # Format code
 npm run jest             # Run tests
