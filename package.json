@@ -1,7 +1,7 @@
 {
   "author": "vbetsch",
   "dependencies": {
-    "tsx": "^4.23.12"
+    "tsx": "^4.23.13"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
