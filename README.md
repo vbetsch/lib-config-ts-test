@@ -9,7 +9,7 @@ the [lib-config-ts](https://github.com/vbetsch/lib-config-ts) monorepo.
 > receive future updates from the libraries, keep the core imports intact and add your
 > project-specific settings in the **"Overrides"** sections.
 
-We recommend using the [latest LTS Node version](https://nodejs.org).
+**Node.js 24 is required**. Install the latest **24.x** LTS release from [nodejs.org](https://nodejs.org).
 
 ## 📦 Available Packages
 
