@@ -14,7 +14,7 @@
   ],
   "compilerOptions": {
     /* IMPORTANT: You have to define it ! */
-    "rootDir": "./src",
+    "rootDir": "./src/",
     "outDir": "./dist/"
 
     /* Overrides */
